@@ -9,7 +9,7 @@ read -r num2
 echo -n "Enter operation [add,sub,mult,div]: "
 read -r oper
 
-echo -n "$oper operation...\n"
+echo -ne "$oper operation...\n"
 case $oper in
 
     "add")
