@@ -11,7 +11,7 @@ echo "Script to find biggest number from : $NUM1 , $NUM2, $NUM3"
 if [ "$NUM1" -gt "$NUM2" ] && [ "$NUM1" -gt "$NUM3" ]
 then 
 	echo "$NUM1 is the biggest number"
-elif [ "$NUM2" -gt "$NUM1" ] && [ "$NUM2" -gt "$NUM3"]
+elif [ "$NUM2" -gt "$NUM1" ] && [ "$NUM2" -gt "$NUM3" ]
 then 
 	echo "$NUM2 is the biggest number"
 else 
