@@ -14,25 +14,25 @@ case $oper in
 
     "add")
     res=$((num1+num2))
-    echo -n "$num1 + $num2 = $res\n"
+    echo -ne "$num1 + $num2 = $res\n"
     ;;
 
     "sub")
     res=$((num1-num2))
-    echo -n "$num1 - $num2 = $res\n"
+    echo -ne "$num1 - $num2 = $res\n"
     ;;
 
     "mult")
     res=$((num1*num2))
-    echo -n "$num1 x $num2 = $res\n"
+    echo -ne "$num1 x $num2 = $res\n"
     ;;
 
     "div")
     res=$((num1/num2))
-    echo -n "$num1 / $num2 = $res\n"
+    echo -ne "$num1 / $num2 = $res\n"
     ;;
 
     *)
-    echo -n "Please choose a correct operator.\n"
+    echo -ne "Please choose a correct operator.\n"
     ;;
 esac
