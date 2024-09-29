@@ -2,9 +2,12 @@
 
 # 5) Operation (summation, substraction, multiplication and division) of two number - switch
 
-read -spr "Enter first number: " num1
-read -spr "\nEnter second number: " num2
-read -spr "\nEnter operation [add,sub,mult,div]: " oper
+echo -n "Enter first number: "
+read -r num1
+echo -n "Enter second number: "
+read -r num2
+echo -n "Enter operation [add,sub,mult,div]: "
+read -r oper
 
 echo -n "$oper operation..."
 case $oper in
