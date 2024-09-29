@@ -20,7 +20,7 @@ Ones to be checked will be: 4, 5, 6, 10
     if -elif block
     biggest.sh
 
-5) [] Operation (summation, substraction, multiplication and division) of two numbers
+5) [X] Operation (summation, substraction, multiplication and division) of two numbers
     switch
     operation.sh
 
