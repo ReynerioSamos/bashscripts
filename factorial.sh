@@ -6,13 +6,16 @@ echo -n "Enter a number to find the factorial of: "
 read -r num
 
 echo "Calculating factorial for $num: "
+
 factorial()
 {
-    if (( num <= 1))
-    then
-        echo 1
+    if [ "$num" == "$((1))" ]; then echo -n "$num"
     else
-        last=$(factorial $(( num - 1 )))
-        echo -n $(( num * last ))
+        while  [ "$num" -ge "$((1))" ]
+        do
+            last=$(factorial $(( num - 1 )))
+            echo -n $(( num * last ))
+        done
     fi
 }
+ factorial num
