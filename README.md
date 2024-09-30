@@ -40,7 +40,7 @@ Ones to be checked will be: 4, 5, 6, 10
     do loop
     avg.sh
 
-10) [] Calculating factorial of a given number - While block
+10) [] Calculating factorial of a given number
     while block
     factorial.sh
 
