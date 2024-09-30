@@ -10,7 +10,7 @@ length=${#num}
 i="$((0))"
 
 echo -n "$num reversed is: "
-while [ "$i" -lt "$length-1" ]
+while [ "$i" -lt "$((length-1))" ]
     do
         echo "${strarr[$i]}"
         ((i++))
