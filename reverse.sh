@@ -5,7 +5,7 @@
 echo -n "Enter a number to be reversed: "
 read -r num
 
-strarr=("$num")
+strarr="($(fold -w1 <<< "$num"))"
 length=${#num}
 i="$((0))"
 
