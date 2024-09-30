@@ -7,9 +7,11 @@ read -r num
 
 echo "Calculating factorial for $num: "
 
+result="$((1))"
 while  [ "$num" -ge "$((1))" ]
 do
     result=$(( result * num ))
     (( num-- ))
 done
-echo -n "$result"
+
+echo -ne "$result\n"
