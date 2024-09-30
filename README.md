@@ -24,7 +24,7 @@ Ones to be checked will be: 4, 5, 6, 10
     switch
     operation.sh
 
-6) [] Script to reverse a given number
+6) [X] Script to reverse a given number
     while block
     reverse.sh
 
