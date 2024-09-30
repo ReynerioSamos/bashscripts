@@ -9,7 +9,7 @@ echo "Calculating factorial for $num: "
 
 while  [ "$num" -ge "$((1))" ]
 do
-    result=$(( $result * $num ))
-    (( $num-- ))
+    result=$(( result * num ))
+    (( num-- ))
 done
 echo -n "$result"
