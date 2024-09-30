@@ -5,13 +5,12 @@
 echo -n "Enter a number to be reversed: "
 read -r num
 
-strarr="($(fold -w1 <<< "$num"))"
-length=${#num}
-i="$((0))"
+strarr="$(fold -w1 <<< "$num")"
+end=${#num}
 
 echo -n "$num reversed is: "
-while [ "$i" -lt "$((length-1))" ]
+while [ "$end" -gt "$((0))" ]
     do
-        echo "${strarr[$i]}"
-        ((i++))
+        echo "${strarr[$end]}"
+        ((end--))
     done
