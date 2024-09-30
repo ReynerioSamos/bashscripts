@@ -7,15 +7,9 @@ read -r num
 
 echo "Calculating factorial for $num: "
 
-factorial()
-{
-    if [ "$num" == "$((1))" ]; then echo -n "$num"
-    else
-        while  [ "$num" -ge "$((1))" ]
-        do
-            last=$(factorial $(( num - 1 )))
-            echo -n $(( num * last ))
-        done
-    fi
-}
- factorial num
+while  [ "$num" -ge "$((1))" ]
+do
+    result=$(( $result * $num ))
+    (( $num-- ))
+done
+echo -n "$result"
