@@ -11,6 +11,6 @@ end=${#num}
 echo -n "$num reversed is: "
 while [ "$end" -gt "$((0))" ]
     do
-        echo "${strarr[$end]}"
+        echo "${strarr[$(($end-1))]}"
         ((end--))
     done
