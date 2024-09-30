@@ -4,7 +4,7 @@ Reynerio Samos
 Assignment Set Given : SEPT 26, 2024
 Ones to be checked will be: 4, 5, 6, 10
 
-1) [] The simplest Hello World shell script
+1) [X] The simplest Hello World shell script
     echo Command
     hello_world.sh
 

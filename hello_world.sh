@@ -1,4 +1,4 @@
 #!/bin/bash
-# Simple Hello warld
+# 1) The simplest Hello World shell script
 
-echo "Hello, speaking from bashscripts/hello_world.sh!"
+echo "Hello, speaking from ~/bin/bashscripts/hello_world.sh!"
