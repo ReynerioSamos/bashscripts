@@ -25,7 +25,8 @@ echo "Sum of $int1, $int2, $int3: $sum"
 
 # Arrange in ascending order
 # first put into arr
-declare -a intarr=("$int1" "$int2" "$int3")
+declare -a arr=("$int1" "$int2" "$int3")
+mapfile -t intarr < <(fold -w1 <<< "${arr[@]}")
 echo -n "Arranging $int1, $int2, $int3 in asc order: "
 # sort by piping to sort bash command
 printf "%s" "${intarr[@]}" | sort -n
