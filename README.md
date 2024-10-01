@@ -1,4 +1,5 @@
 # bashscripts
+## Task 1:
 Bash scripts for Systems Administration
 Reynerio Samos
 Assignment Set Given : SEPT 26, 2024
@@ -47,3 +48,15 @@ Ones to be checked will be: 4, 5, 6, 10
 11) [] An application in research computing
     combining all above
     research.sh
+
+-------------------------------------------------
+
+## Task 2:
+Create a shell script that takes in three integers. The script is to calculate the product and sum of the integers and also arrange them in ascending order
+
+threenums.sh
+
+## Task 3: 
+Create a shell script that request a string of text and a number. The script should print the string of text the given number of times only when the number is between 5 and 20; otherwise it should display an appropriate message.
+
+printstring.sh
