@@ -21,18 +21,13 @@ echo "Product of $int1, $int2, $int3: $product"
 sum=$(( int1 + int2 + int3 ))
 echo "Sum of $int1, $int2, $int3: $sum"
 
-:' NEED FIXING
+
 
 # Arrange in ascending order
 # first put into arr
-declare -a intarr=($int1 $int2 $int3)
+declare -a intarr=("$int1" "$int2" "$int3")
 echo -n "Arranging $int1, $int2, $int3 in asc order: "
-# then use for loop to print smallest in remaining array elements
-for i in ${intarr[@]}
-do
-    least="$((-1))"
+# sort by piping to sort bash command
+printf "%s" "${intarr[@]}" | sort -n
 
-done
-'
-
-echo  
+echo  ""
