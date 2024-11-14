@@ -1,9 +1,15 @@
 # bashscripts
 ## Task 1:
+
 Bash scripts for Systems Administration
+
 Reynerio Samos
+
 Assignment Set Given : SEPT 26, 2024
+
 Ones to be checked will be: 4, 5, 6, 10
+
+
 
 1) [X] The simplest Hello World shell script
    
@@ -82,3 +88,38 @@ threenums.sh
 Create a shell script that request a string of text and a number. The script should print the string of text the given number of times only when the number is between 5 and 20; otherwise it should display an appropriate message.
 
 printstring.sh
+
+
+--------------------------------------------------
+
+## Task 4:
+
+1. Write a shell script that accomplishes the following tasks:
+
+   a.) Accept a file name from the command line that represents
+       a text file that contains first and last names. And accepts a second 
+       command line argument that contains the last name that the user wants to
+       find.
+
+
+   b.) Your script should use a regular expression to get all the names(lines)
+        in the file that have the requested last name.
+        
+Example run: Assume names.txt is found and it contians the following names below.
+	(add at least 6 more names to the file)
+
+
+``` text
+Jane Smith
+Hope Peters
+Peter Smith
+Pam Peters
+```
+
+``` bash
+$ my-lookup names.txt Peters
+Hope Peters
+Pam Peters
+
+Goodbye!
+```
