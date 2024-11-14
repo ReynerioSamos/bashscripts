@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Task 3
+
 # Create a shell script that request a string of text and 
 # a number. The script should print the string of text the 
 # given number of times only when the number is 
